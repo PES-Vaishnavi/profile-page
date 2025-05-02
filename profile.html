@@ -1,32 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profile</title>
-<style> body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} </style>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4a90e2;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      margin: 15px 0 5px;
+      font-size: 2em;
+    }
+
+    .header p {
+      font-size: 1.1em;
+      color: #777;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 6px;
+      color: #4a90e2;
+      margin-bottom: 15px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #4a90e2;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px 5px 0 0;
+      font-size: 0.9em;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <div class="profile-card">
-    <h1>PROFILE</h1>
-    <h2>Name : P E Sri Vaishnavi</h2>
-    <p class="title">B.Tech Student at Gayatri Vidya Parishad College of Engineering(A)</p>
-    <p>Branch : Computer Science and Engineering</p>
-    <p>Email: Srivaishnavipe@gmail.com</p>
-    <p>Phone number : 9347335113</p>
-    <p>Location: Visakhapatnam</p>
-    <h4>Technical skills:</h4> 
-    <p> 1.Programming languages : C , python. <br>
-        2.Knowledge in Data Structures and Algorithms. <br>
-        3.Knowledge about AI-ML 
-    </p>
+
+  <div class="container">
+    <div class="header">
+      <h1>P Eesha Sri Vaishnavi</h1>
+      <p>Tech Enthusiast | Lifelong Learner</p>
+    </div>
+
+    <div class="section about">
+      <h2>About Me</h2>
+      <p>I'm a passionate developer who enjoy solving complex problems and continuously improving my skills.</p><br>
+      <p>B.Tech Computer Science and Engineering student at Gayatri Vidya Parishad College of Engineering(A)</p>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Javascript</span>
+      <span>C Programming</span>
+      <span>Python programming</span>
+      <span>MongoDB</span>
+    </div>
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>Email: Srivaishnavipe@gmail.com</p>
+      <p>Contact Number: 9347335113</p>
+    </div>
   </div>
+
 </body>
 </html>
